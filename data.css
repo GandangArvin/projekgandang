@@ -1,0 +1,72 @@
+td{
+    text-align: center;
+    font-weight: bold;
+}
+
+th{
+    text-align: center;
+}
+
+.primer{
+    font-weight: bold;
+}
+
+body{
+    background-color: #4E6E81;
+}
+
+.button{
+    color: #4E6E81;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    -webkit-transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-size: 0.875em;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.button:hover{
+    letter-spacing: 0;
+    color: rgb(90, 134, 255);
+    background-color: #4E6E81;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.button:after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0;
+        background: #4E6E81;
+        z-index: -1;
+        -webkit-transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+      }
+
+.button:hover:after{
+        height: 100%;
+      }
+.buttonsearch{
+    color: #00a2ff;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    -webkit-transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-size: 0.875em;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.button:hover{
+    
+    letter-spacing: 0;
+    color: rgb(90, 134, 255);
+    background-color: #4E6E81;
+    font-weight: bold;
+    border-radius: 15px;
+}
