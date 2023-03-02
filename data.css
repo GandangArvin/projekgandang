@@ -15,7 +15,7 @@ body{
     background-color: #4E6E81;
 }
 
-.button{
+.buttonsearch{
     color: #4E6E81;
     text-transform: uppercase;
     letter-spacing: .2em;
@@ -35,7 +35,7 @@ body{
     border-radius: 15px;
 }
 
-.button:after{
+.buttonsearch:after{
         content: "";
         position: absolute;
         left: 0;
@@ -48,7 +48,7 @@ body{
         transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
       }
 
-.button:hover:after{
+.buttonsearch:hover:after{
         height: 100%;
       }
 .buttonsearch{
@@ -62,7 +62,7 @@ body{
     padding: 10px 15px;
     border-radius: 15px;
 }
-.button:hover{
+.buttonsearch:hover{
     
     letter-spacing: 0;
     color: rgb(90, 134, 255);
